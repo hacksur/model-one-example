@@ -1,0 +1,14 @@
+name = "model-one-example"
+workers_dev = true
+compatibility_date = "2022-05-27"
+main = "./dist/worker.mjs"
+
+[[ d1_databases ]]
+binding = "DB"
+database_name = "db"
+database_id = ""
+preview_database_id = ""
+
+
+[build]
+command = "npm run build"
